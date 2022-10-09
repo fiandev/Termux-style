@@ -1,4 +1,4 @@
-# Termux-style
+# Termux style
 Tampilan seperti Linux tanpa root hp, dengan tampilan user root yang lebih menyenangkan.
 
 - Theme Kali Linux
