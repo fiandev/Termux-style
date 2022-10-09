@@ -1,5 +1,5 @@
 # Termux Style
-Tampilan seperti Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebih menyenangkan.
+Tampilan Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebih menyenangkan.
 
 - Theme Android
 - Theme Linux
