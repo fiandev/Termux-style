@@ -1,0 +1,2 @@
+UsernameCredentials="./.username";
+PasswordCredentials="./.password";

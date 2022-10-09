@@ -45,6 +45,19 @@ Tampilan Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebi
 - Theme LinuxDeepin
 - Theme openSUSE
 
+# how to use
+
+## give permission
+```shell
+chmod 777 index.sh
+```
+
+## create symlink
+```shell
+ln -s $PWD/index.sh /data/data/com.termux/files/usr/bin/style
+```
+
+
 # Contributors
 Kami menyambut kontribusi dari komunitas! Tidak masalah jika Anda dapat membuat kode, menulis dokumentasi, atau membantu menemukan bug,
 semua kontribusi dipersilakan.
