@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+list_font(){
+	echo "
+	1. DejaVuSansMono-Bold
+	2. 7pixelsOfPerfection
+	3. 8-bitfortress
+	4. DejaVuSansMono
+	0. exit
+	";
+}
+select_font(){
+	list_font
+	read -p 'enter your choice: ' font_input;
+}
+#echo $(pwd);
+
+select_font
