@@ -1,6 +1,10 @@
 # Termux-style
 Tampilan seperti Linux tanpa root hp, dengan tampilan user root yang lebih menyenangkan.
 
+- Theme Kali Linux
+- Theme Debian Linux
+- Theme Android
+
 # Contributors
 Kami menyambut kontribusi dari komunitas! Tidak masalah jika Anda dapat membuat kode, menulis dokumentasi, atau membantu menemukan bug,
 semua kontribusi dipersilakan.
