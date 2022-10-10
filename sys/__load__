@@ -1,5 +1,7 @@
 #!/usr/bin/bash
-
+req=${HOME}/.termux
+__DIR__=$(pwd)
+_save_='font.ttf'
 list_font(){
 	echo "
 	1. DejaVuSansMono-Bold
@@ -12,6 +14,35 @@ list_font(){
 select_font(){
 	list_font
 	read -p 'enter your choice: ' font_input;
+	case $font_input in
+  1)
+  cp ${__DIR__}/lib/fonts/DejaVuSansMono-Bold.ttf ${_save_}
+  mv ${_save_} ${req}
+  echo "\n successfully applied"
+  termux-reload-settings
+  ;;
+  2)
+  cp ${__DIR__}/lib/fonts/7pixelsOfPerfection.ttf ${_save_}
+  mv ${_save_} ${req}
+  echo "\n successfully applied"
+  termux-reload-settings
+  ;;
+  3)
+  cp ${__DIR__}/lib/fonts/8-bitfortress.ttf ${_save_}
+  mv ${_save_} ${req}
+  echo "\n successfully applied"
+  termux-reload-settings
+  ;;
+  4)
+  cp ${__DIR__}/lib/fonts/DejaVuSansMono.ttf ${_save_}
+  mv ${_save_} ${req}
+  echo "\n successfully applied"
+  termux-reload-settings
+  ;;
+  *)
+  echo "\n onichan bakka !!"
+  ;;
+  esac
 }
 #echo $(pwd);
 
