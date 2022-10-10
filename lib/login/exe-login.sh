@@ -14,8 +14,8 @@ chmod 777 $PasswordCredentials;
 getCredentials() {
   clear;
   
-  read -p "Enter Username: " username;
-  read -p "Enter Password: " password;
+  read -p "Enter Username: " inputUsername;
+  read -p "Input Password: " inputPassword;
   
   #verifyUsername=$(echo -n $username | md5sum -c $usernameCredentials);
   #verifyPassword=$(echo -n $password | md5sum -c $passwordCredentials);
@@ -23,8 +23,11 @@ getCredentials() {
   verifyUsername=$(cat $UsernameCredentials);
   verifyPassword=$(cat $PasswordCredentials);
   
-  if [ "$verifyUsername" = "$username" ] && [ "$verifyPassword" = "$password" ]; then
+  if [ "$verifyUsername" = "$inputUsername" ] && [ "$verifyPassword" = "$inputPassword" ]; then
       echo "success login!";
+      sleep 1;
+      
+      echo "Welcome, ${inputUsername}!"
       exit;
   else
       echo "login failed!";
@@ -33,6 +36,5 @@ getCredentials() {
   fi
 }
 
-
-getCredentials;
+getCredentials
 exit;
