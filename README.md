@@ -1,6 +1,6 @@
 # Termux Style
 
-> The coolest and most complete look without rooting the cellphone, with a more pleasant look for root users.
+The coolest and most complete look without rooting the cellphone, with a more pleasant look for root users.
 
 [![GitHub stars](https://img.shields.io/github/stars/ryugenxd/Termux-style.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ryugenxd/Termux-style/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/ryugenxd/Termux-style.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/ryugenxd/Termux-style/network/)
@@ -16,7 +16,7 @@
 
 ## clone this project
 ```shell
-git clone https://github.com/fiandev/Termux-style && cd Termux-style
+git clone https://github.com/ryugenxd/Termux-style && cd Termux-style
 ```
 
 # list program
