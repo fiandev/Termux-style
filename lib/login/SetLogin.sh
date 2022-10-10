@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/bash
 
 chmod 777 $PREFIX/bin/exe-login.sh
 chmod 777 $PREFIX/bin/login

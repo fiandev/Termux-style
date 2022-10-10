@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/bash
 
 PathLogin="/data/data/com.termux/files/usr/share/logged";
 

@@ -56,7 +56,7 @@ sh main.sh
 
 ### termux custom login
 ```shell
-sh ./lib/login/SetLogin.sh
+sh setup-login.sh
 ```
 
 # Contributors
