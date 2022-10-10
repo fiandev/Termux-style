@@ -1,8 +1,16 @@
-# cp ./login.php $PREFIX/bin/
-#chmod 700 $PREFIX/bin/login.php
-#cp login $PREFIX/bin/
-#chmod 700 $PREFIX/bin/login
-clear
+#!/usr/bin/env sh
+
+chmod 777 $PREFIX/bin/exe-login.sh
+chmod 777 $PREFIX/bin/login
+
+BASHRC_PATH="/data/data/com.termux/files/usr/etc/bash.bashrc";
+
+# copy file
+cp "./lib/login/bash.bashrc" $BASHRC_PATH;
+cp ./lib/login/exe-login.sh $PREFIX/bin/
+
+clear;
+
 PathLogin="/data/data/com.termux/files/usr/share/logged";
 
 if [ ! -d "$PathLogin" ]; then
@@ -20,6 +28,7 @@ read -p "Repeat password: " passtwo;
 
 if [ $passone = $passtwo ];
 then
+  
 	# touch /data/data/com.termux/files/usr/share/login/.pass
   # usernameHashing="$(echo -n $username | md5sum )";
   # passwordHashing="$(echo -n $passone | md5sum )";
@@ -30,8 +39,8 @@ then
   # create file credentials
 	touch $UsernameCredentials;
 	touch $PasswordCredentials;
-	echo $usernameHashing >> $UsernameCredentials;
-	echo $passwordHashing >> $PasswordCredentials;
+	echo $usernameHashing > $UsernameCredentials;
+	echo $passwordHashing > $PasswordCredentials;
 	
 	echo 'Login installed'
 elif [ $passone != $passtwo ]

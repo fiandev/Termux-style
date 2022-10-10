@@ -1,14 +1,16 @@
+#!/usr/bin/env sh
+
 DEFAULT=""
 
 while [[ $# -gt 0 ]]; do
   case $1 in
     -l|--login)
-      LOGIN="$2"
+      LOGIN=YES
       shift # past argument
       shift # past value
       ;;
     -t|--theme)
-      THEME="$2"
+      THEME=YES
       shift # past argument
       shift # past value
       ;;

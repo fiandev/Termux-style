@@ -47,16 +47,17 @@ Tampilan Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebi
 
 # how to use
 
-## give permission
+## list program
+
+### termux style
 ```shell
-chmod 777 index.sh
+sh main.sh
 ```
 
-## create symlink
+### termux custom login
 ```shell
-ln -s $PWD/index.sh /data/data/com.termux/files/usr/bin/style
+sh ./lib/login/SetLogin.sh
 ```
-
 
 # Contributors
 Kami menyambut kontribusi dari komunitas! Tidak masalah jika Anda dapat membuat kode, menulis dokumentasi, atau membantu menemukan bug,
