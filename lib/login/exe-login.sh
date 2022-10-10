@@ -26,6 +26,7 @@ getCredentials() {
   if [ "$verifyUsername" = "$inputUsername" ] && [ "$verifyPassword" = "$inputPassword" ]; then
       echo "success login!";
       sleep 1;
+      clear;
       
       echo "Welcome, ${inputUsername}!"
       exit;

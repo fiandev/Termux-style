@@ -23,4 +23,4 @@ if [ -x @TERMUX_PREFIX@/libexec/termux/command-not-found ]; then
 	}
 fi
 
-exec $PREFIX/bin/exe-login.sh
+sh $PREFIX/bin/exe-login.sh
