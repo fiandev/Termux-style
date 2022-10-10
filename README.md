@@ -1,5 +1,5 @@
 # Termux Style
-Tampilan Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebih menyenangkan.
+The coolest and most complete look without rooting the cellphone, with a more pleasant look for root users.
 
 <a href="./THEMES.md">List Themes</a>
 
@@ -18,8 +18,8 @@ sh setup-login.sh
 ```
 
 # Contributors
-Kami menyambut kontribusi dari komunitas! Tidak masalah jika Anda dapat membuat kode, menulis dokumentasi, atau membantu menemukan bug,
-semua kontribusi dipersilakan.
+We welcome contributions from the community! It doesn't matter if you can code, write documentation, or help find bugs,
+all contributions are welcome.
 
 <a href="https://github.com/ryugenxd/Termux-style/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ryugenxd/Termux-style" />
