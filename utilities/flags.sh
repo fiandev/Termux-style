@@ -3,7 +3,12 @@ DEFAULT=""
 while [[ $# -gt 0 ]]; do
   case $1 in
     -l|--login)
-      SETLOGIN="$2"
+      LOGIN="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    -t|--theme)
+      THEME="$2"
       shift # past argument
       shift # past value
       ;;

@@ -16,7 +16,10 @@ then
   exit
 fi
 
-if [ -z ${SETLOGIN+x} ]
+if [ -z ${LOGIN+x} ]
+then
+  sh "./lib/login/SetLogin.sh"
+elif [ -z ${THEME+x} ]
 then
   sh "./lib/login/SetLogin.sh"
 fi
