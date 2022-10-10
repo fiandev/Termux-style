@@ -45,6 +45,20 @@ Tampilan Keren dan terlengkap tanpa root hp, dengan tampilan user root yang lebi
 - Theme LinuxDeepin
 - Theme openSUSE
 
+# how to use
+
+## list program
+
+### termux style
+```shell
+sh main.sh
+```
+
+### termux custom login
+```shell
+sh setup-login.sh
+```
+
 # Contributors
 Kami menyambut kontribusi dari komunitas! Tidak masalah jika Anda dapat membuat kode, menulis dokumentasi, atau membantu menemukan bug,
 semua kontribusi dipersilakan.
