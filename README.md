@@ -36,8 +36,9 @@ We welcome contributions from the community! It doesn't matter if you can't code
 all contributions are welcome.
 
 <a href="https://github.com/ryugenxd/Termux-style/graphs/contributors">
-  <img size="20%" src="https://contrib.rocks/image?repo=ryugenxd/Termux-style" />
+  <img width="20%" src="https://contrib.rocks/image?repo=ryugenxd/Termux-style" />
 </a>
 
+<hr/>
 
 > Made with ❤️ By Our Teams Under MIT license
