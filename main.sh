@@ -21,10 +21,12 @@ input(){
 main(){
   pkg install toilet -y
   clear
+  toilet -F border -F metal  -f future  "termux style"
   echo "
        ${merah} LIST MENU :
        ${hijau} 1. change font
-       ${hijau} 0. exit
+       ${hijau} 2. change logo
+       ${merah} 0. exit
       ";
   input
 }
